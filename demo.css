@@ -1,0 +1,37 @@
+header{
+  display: flex;
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  background-color: grey;
+  align-items: center;
+  color: black;
+  }
+  header *{display: inline;}
+  header img{height: 80px;}
+  .nav_menu{
+    width: 82%;
+    padding: 0;
+       margin: 20px;
+
+  }
+.last,.nav_menu a{
+  padding: 20px 10px;
+  font-size: 20px; 
+  text-decoration: none;
+  display: inline;
+  
+}
+header a.active{
+  background-color: black; color:violet;
+
+}
+header a:hover:not(.active){
+  background-color: black; color:violet;
+ 
+  }
+.margin{padding-top: 85px;
+  padding-bottom: 1000px;}
+  body{
+    background-image: url("phoe.jpg");
+    background-repeat: no-repeat;
+  }
